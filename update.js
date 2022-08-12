@@ -5,7 +5,7 @@ const update_data = () => {
 
     let genre = "Mbak Titt"; //dimamic query
     let params = {
-        "genre" : "Regita"
+        "genre" : "Horror"
     }
 
     let query = "UPDATE genre SET genre=? WHERE 1 = 1"; 
