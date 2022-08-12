@@ -1,7 +1,7 @@
 const mydb = require("./db_con");
 
 const delete_data = () => {
-    let query = "DELETE FROM genre WHERE genre='Joko'";
+    let query = "DELETE FROM genre WHERE genre='Horror'";
 
     mydb.query(query, function(err, result) {
 
