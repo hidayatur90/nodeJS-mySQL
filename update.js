@@ -3,7 +3,7 @@ const mydb = require("./db_con");
 
 const update_data = () => {
 
-    let genre = "Mbak Titt"; //dimamic query
+    let genre = "Action"; //dimamic query
     let params = {
         "genre" : "Horror"
     }
