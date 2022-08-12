@@ -1,7 +1,7 @@
 const mydb = require('./db_con');
 
 const insert_data = () => {
-    let query = "INSERT INTO genre(genre) VALUES ('Regita')";
+    let query = "INSERT INTO genre(genre) VALUES ('Horror')";
 
     mydb.query(query, function(err, result) {
         if (err) throw err;
